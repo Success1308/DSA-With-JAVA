@@ -1,0 +1,18 @@
+javac JavaBasics.java
+clear
+javac JavaBasics.java
+clear
+javac JavaBasics.java
+clear
+javac JavaBasics.java
+java
+clear
+javac JavaBasics.java
+java JavaBasics.java
+java
+java JavaBasics.java
+clear
+java JavaBasics.java
+cler
+clear
+java JavaBasics.java
