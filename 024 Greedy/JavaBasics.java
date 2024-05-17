@@ -177,48 +177,45 @@ import java.util.*;
 
  // Shradha ben method for knapsack
 
-// public class JavaBasics{
-// 	public static void main(String args[]){
-// 		int value[] = {100,120,60};
-// 		int weight[] = {20,30,10};
-// 		int w = 50;
+public class JavaBasics {
+    public static void main(String args[]) {
+        int value[] = {100, 120, 60};
+        int weight[] = {20, 30, 10};
+        int w = 50;
 
-// 		double ratio[][] = new double[value.length][2];
+        double ratio[][] = new double[value.length][2];
 
-// 		for(int i = 0; i< value.length; i++){
-// 			ratio[i][0] = i; 
-// 			ratio[i][1] = (double)value[i] / weight[i]; 
-// 		}
+        for (int i = 0; i < value.length; i++) {
+            ratio[i][0] = i;
+            ratio[i][1] = (double) value[i] / weight[i];
+        }
 
-// 		//sort
-// 		Arrays.sort(ratio, Comparator.comparingDouble(o -> o[1]));
+        // Sort ratios based on value/weight ratio in descending order
+        Arrays.sort(ratio, (a, b) -> Double.compare(b[1], a[1]));
 
-// 		for(int i = 0; i< value.length; i++){
-// 			System.out.print(ratio[i][0] + " ");
-// 			System.out.print(ratio[i][1] + " ");	
-// 			System.out.println();
-// 		}
+        for (int i = 0; i < value.length; i++) {
+            System.out.print((int) ratio[i][0] + " ");
+            System.out.print(ratio[i][1] + " ");
+            System.out.println();
+        }
 
-// 		int capacity = w;
-// 		int maxValue = 0;
-// 		int currWeight = 0;
-// 		int currValue = 0;
+        int capacity = w;
+        double maxValue = 0;
 
-// 		for(int i = value.length-1; i >= 0 ; i--){
-// 			currWeight += weight[i];
-// 			currValue += value[i];
-// 			if(capacity >= currWeight){
-// 				maxValue += currValue;
-// 				capacity -= currWeight;
-// 			}else{
-// 				currValue = (int)ratio[i][1] * capacity;
-// 				maxValue += currValue;
-// 			}
-// 		}
-// 		System.out.println("MAximum possible value: " + maxValue);
-// 	}
-// }
+        for (int i = 0; i < ratio.length; i++) {
+            int idx = (int) ratio[i][0];
+            if (capacity >= weight[idx]) {
+                capacity -= weight[idx];
+                maxValue += value[idx];
+            } else {
+                maxValue += ratio[i][1] * capacity;
+                break;
+            }
+        }
 
+        System.out.println("Maximum possible value: " + maxValue);
+    }
+}
 
 
 // Q 3 minimumn absoulte difference 0(n)
