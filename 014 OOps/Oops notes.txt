@@ -1,0 +1,348 @@
+1. Object Oriented Programming (OOP) Concepts
+Four Main Pillars of OOP:
+
+    Encapsulation: Bundling the data (variables) and code (methods) together as a single unit, often in a class.
+    Abstraction: Hiding complex implementation details and showing only the necessary features of an object.
+    Inheritance: The mechanism by which one class (child/subclass) inherits the properties and behaviors of another class (parent/superclass).
+    Polymorphism: The ability to take many forms, typically through method overloading (compile-time) and method overriding (runtime).
+
+2. Classes & Objects
+
+A class is a blueprint for objects. It defines attributes (fields) and behaviors (methods). An object is an instance of a class.
+
+Example:
+
+java
+
+class Car {
+    String color;
+    int speed;
+
+    void accelerate() {
+        speed += 10;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Car myCar = new Car(); // Creating an object
+        myCar.color = "Red";
+        myCar.speed = 50;
+        myCar.accelerate();
+        System.out.println(myCar.speed); // Output: 60
+    }
+}
+
+3. Access Modifiers
+
+Access modifiers determine the visibility of classes, methods, and variables.
+
+    private: Accessible only within the same class.
+    default (no modifier): Accessible within the same package.
+    protected: Accessible within the same package and subclasses.
+    public: Accessible from anywhere.
+
+Example:
+
+java
+
+class Example {
+    private int privateVar;
+    int defaultVar;
+    protected int protectedVar;
+    public int publicVar;
+}
+
+4. Getters & Setters
+
+Getters and setters are methods used to access and modify private variables.
+
+Example:
+
+java
+
+class Person {
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String newName) {
+        this.name = newName;
+    }
+}
+
+5. Encapsulation
+
+Encapsulation is the practice of keeping fields within a class private and providing access via public methods (getters and setters).
+
+Example:
+
+java
+
+class Account {
+    private double balance;
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public void deposit(double amount) {
+        if (amount > 0) {
+            balance += amount;
+        }
+    }
+}
+
+6. Constructors
+
+Constructors are special methods used to initialize objects. They have the same name as the class and no return type.
+
+Example:
+
+java
+
+class Dog {
+    String name;
+
+    Dog(String name) {
+        this.name = name;
+    }
+}
+
+Types of Constructors
+
+    Default Constructor: No parameters.
+    Parameterized Constructor: With parameters to initialize fields.
+
+Copy Constructor
+
+A constructor used to create a new object as a copy of an existing object.
+
+Example:
+
+java
+
+class Book {
+    String title;
+
+    Book(String title) {
+        this.title = title;
+    }
+
+    Book(Book b) {
+        this.title = b.title;
+    }
+}
+
+7. Shallow & Deep Copy
+
+    Shallow Copy: Copies the object's field values. For reference types, only the reference is copied, not the object it points to.
+    Deep Copy: Copies all fields and also creates copies of dynamically allocated memory pointed to by the fields.
+
+Example:
+
+java
+
+class Point {
+    int x, y;
+
+    Point(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    Point(Point p) { // Shallow copy example
+        this.x = p.x;
+        this.y = p.y;
+    }
+}
+
+8. Destructors
+
+Java does not have destructors like C++. Instead, it uses a garbage collector to manage memory. The finalize method is called by the garbage collector before an object is destroyed, but it's generally avoided in modern Java.
+9. Inheritance
+
+Inheritance allows a new class to inherit fields and methods from an existing class.
+Types of Inheritance
+
+    Single Level Inheritance: A class inherits from one superclass.
+    Multi Level Inheritance: A class inherits from another class, which in turn inherits from another class.
+    Hierarchical Inheritance: Multiple classes inherit from one superclass.
+    Hybrid Inheritance: A combination of two or more types of inheritance. Note: Java doesn't support multiple inheritance directly due to the diamond problem.
+
+Example:
+
+java
+
+class Animal {
+    void eat() {
+        System.out.println("Eating...");
+    }
+}
+
+class Dog extends Animal {
+    void bark() {
+        System.out.println("Barking...");
+    }
+}
+
+class Puppy extends Dog {
+    void weep() {
+        System.out.println("Weeping...");
+    }
+}
+
+10. Polymorphism
+
+Polymorphism allows methods to perform different tasks based on the object that invokes them.
+Method Overloading
+
+Same method name, different parameters.
+
+Example:
+
+java
+
+class MathOperations {
+    int add(int a, int b) {
+        return a + b;
+    }
+
+    int add(int a, int b, int c) {
+        return a + b + c;
+    }
+}
+
+Method Overriding
+
+A subclass provides a specific implementation of a method already defined in its superclass.
+
+Example:
+
+java
+
+class Animal {
+    void sound() {
+        System.out.println("Animal sound");
+    }
+}
+
+class Cat extends Animal {
+    @Override
+    void sound() {
+        System.out.println("Meow");
+    }
+}
+
+11. Packages in Java
+
+Packages are used to group related classes, interfaces, and sub-packages. They help in organizing files within a project.
+
+Example:
+
+java
+
+package com.example;
+
+public class MyClass {
+    public void myMethod() {
+        System.out.println("Hello, Package!");
+    }
+}
+
+12. Abstraction
+
+Abstraction is the concept of hiding the complex implementation details and showing only the necessary features of an object.
+Abstract Classes
+
+An abstract class cannot be instantiated and may contain abstract methods (without implementation).
+
+Example:
+
+java
+
+abstract class Animal {
+    abstract void makeSound();
+
+    void sleep() {
+        System.out.println("Sleeping...");
+    }
+}
+
+class Dog extends Animal {
+    void makeSound() {
+        System.out.println("Bark");
+    }
+}
+
+Interfaces
+
+An interface is a reference type in Java, it is similar to a class. It is a collection of abstract methods. A class implements an interface, thereby inheriting the abstract methods of the interface.
+
+Example:
+
+java
+
+interface Animal {
+    void makeSound();
+}
+
+class Cat implements Animal {
+    public void makeSound() {
+        System.out.println("Meow");
+    }
+}
+
+13. Static Keyword
+
+The static keyword is used for class-level fields and methods. It means that the field or method belongs to the class, not instances of the class.
+
+Example:
+
+java
+
+class Counter {
+    static int count = 0;
+
+    Counter() {
+        count++;
+        System.out.println(count);
+    }
+
+    public static void main(String[] args) {
+        Counter c1 = new Counter(); // Output: 1
+        Counter c2 = new Counter(); // Output: 2
+    }
+}
+
+14. Super Keyword
+
+The super keyword is used to refer to the immediate parent class object. It is used to access parent class methods and constructors.
+
+Example:
+
+java
+
+class Animal {
+    void eat() {
+        System.out.println("Animal is eating");
+    }
+}
+
+class Dog extends Animal {
+    void eat() {
+        System.out.println("Dog is eating");
+    }
+
+    void bark() {
+        super.eat();
+        System.out.println("Dog is barking");
+    }
+
+    public static void main(String[] args) {
+        Dog dog = new Dog();
+        dog.bark();
+    }
+}
