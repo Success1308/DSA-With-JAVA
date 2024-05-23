@@ -116,48 +116,48 @@ Projects Overview
 ### Queue
 
 -   **Description:** Understanding and implementing queues, including basic operations and applications.
--   **Folder:** [023-queue]
+-   **Folder:** [023-queue](https://github.com/Success1308/DSA-With-JAVA/tree/44570debed39f6b5cd29ff5a9dfcbb85a5ec4381/023%20Queue)
 
 ### Greedy Algorithms
 
 -   **Description:** Solving problems using greedy algorithms, including the knapsack problem and activity selection.
--   **Folder:** [024-greedy]
+-   **Folder:** [024-greedy](https://github.com/Success1308/DSA-With-JAVA/tree/44570debed39f6b5cd29ff5a9dfcbb85a5ec4381/024%20Greedy)
 
 ### Binary Tree
 
 -   **Description:** Introduction to binary trees, including traversal techniques and basic operations.
--   **Folder:** [025-binary-tree]
+-   **Folder:** [025-binary-tree](https://github.com/Success1308/DSA-With-JAVA/tree/44570debed39f6b5cd29ff5a9dfcbb85a5ec4381/025%20Binary%20Tree)
 
 ### Binary Search Tree
 
 -   **Binary Search Tree Part 1:** Understanding and implementing binary search trees, including insertion and deletion.
-    -   **Folder:** [026-binarysearch-tree1]
+    -   **Folder:** [026-binarysearch-tree1](https://github.com/Success1308/DSA-With-JAVA/tree/44570debed39f6b5cd29ff5a9dfcbb85a5ec4381/026%20BinarySearchTree%201)
 -   **Binary Search Tree Part 2:** Advanced operations on binary search trees, including balancing and AVL trees.
-    -   **Folder:** [027-binarysearch-tree2]
+    -   **Folder:** [027-binarysearch-tree2](https://github.com/Success1308/DSA-With-JAVA/tree/44570debed39f6b5cd29ff5a9dfcbb85a5ec4381/027%20BinarySearchtree%202)
 
 ### Heap
 
 -   **Description:** Understanding and implementing heaps, including heap operations and heap sort.
--   **Folder:** [028-heap]
+-   **Folder:** [028-heap](https://github.com/Success1308/DSA-With-JAVA/tree/44570debed39f6b5cd29ff5a9dfcbb85a5ec4381/028%20Heap)
 
 ### Graphs
 
 -   **Graphs Part 1:** Introduction to graph theory, including representation and traversal algorithms.
-    -   **Folder:** [031-graph1]
+    -   **Folder:** [031-graph1](https://github.com/Success1308/DSA-With-JAVA/tree/44570debed39f6b5cd29ff5a9dfcbb85a5ec4381/031%20Graph%201)
 -   **Graphs Part 2:** Advanced graph algorithms, including shortest path and spanning tree algorithms.
-    -   **Folder:** [032-graph2]
+    -   **Folder:** [032-graph2](https://github.com/Success1308/DSA-With-JAVA/tree/44570debed39f6b5cd29ff5a9dfcbb85a5ec4381/032%20Graph%202)
 -   **Graph Supplemental:** Supplemental materials and problems on graphs.
-    -   **Folder:** [033-graph-supplemental]
+    -   **Folder:** [033-graph-supplemental](https://github.com/Success1308/DSA-With-JAVA/tree/44570debed39f6b5cd29ff5a9dfcbb85a5ec4381/033%20Graph%20supplemental)
 
 ### Dynamic Programming (DP)
 
 -   **Description:** Solving problems using dynamic programming techniques, including memoization and tabulation.
--   **Folder:** [034-dp]
+-   **Folder:** [034-dp](https://github.com/Success1308/DSA-With-JAVA/tree/44570debed39f6b5cd29ff5a9dfcbb85a5ec4381/034%20DP)
 
 ### Segment Trees
 
 -   **Description:** Understanding and implementing segment trees for range query problems.
--   **Folder:** [035-segment-trees]
+-   **Folder:** [035-segment-trees](https://github.com/Success1308/DSA-With-JAVA/tree/44570debed39f6b5cd29ff5a9dfcbb85a5ec4381/035%20Segment%20Trees)
 
 * * * * *
 
