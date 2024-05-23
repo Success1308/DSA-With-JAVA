@@ -19,12 +19,12 @@ Projects Overview
 ### Operators
 
 -   **Description:** Exploration of different operators in Java, including arithmetic, relational, and logical operators.
--   **Folder:** [002-operators](https://github.com/Success1308/DSA-With-JAVA/tree/main/002-operators)
+-   **Folder:** [002-operators](https://github.com/Success1308/DSA-With-JAVA/tree/8bdf389416fce3bb807d7cae62744d9db6499a05/002%20Operators)  
 
 ### Conditional Statements
 
 -   **Description:** Implementation of conditional statements such as if-else and switch-case in Java.
--   **Folder:** [003-conditional-statements](https://github.com/Success1308/DSA-With-JAVA/tree/main/003-conditional-statements)
+-   **Folder:** [003-conditional-statements](https://github.com/Success1308/DSA-With-JAVA/tree/8bdf389416fce3bb807d7cae62744d9db6499a05/003%20Conditional%20Statement)
 
 ### Loops
 
