@@ -163,7 +163,11 @@ Projects Overview
 
 🏆 Certificate of Completion
 ----------------------------
+
 ![certificate-sigma-batch-dsa-662f9454b676a6f0bf0547cb_page-0001](https://github.com/Success1308/DSA-With-JAVA/assets/167788445/bb85b1fb-5407-47ec-8c55-2dd4baed83a0)
+
+![java_basic certificate_page-0001](https://github.com/Success1308/DSA-With-JAVA/assets/167788445/1f92f7aa-1716-4abe-8635-ee37d9abb95a)
+
 
 * * * * *
 
