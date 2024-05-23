@@ -14,7 +14,7 @@ Projects Overview
 ### Variables
 
 -   **Description:** Introduction to variables in Java, including data types and variable declarations.
--   **Folder:** [001-variables]([https://github.com/Success1308/DSA-With-JAVA/tree/main/001-variables](https://github.com/Success1308/DSA-With-JAVA/tree/da8c066d5975339d4932bf8b79052492caa9e17a/001%20varibales))
+-   **Folder:** [001-variables](https://github.com/Success1308/DSA-With-JAVA/tree/da8c066d5975339d4932bf8b79052492caa9e17a/001%20varibales)
 
 ### Operators
 
