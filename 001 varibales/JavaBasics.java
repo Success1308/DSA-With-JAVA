@@ -1,7 +1,7 @@
 
 // import used in input section
 import java.util.*;
-
+ 
 public class JavaBasics {
 
                 // 1. first print  print  println  and \n 
