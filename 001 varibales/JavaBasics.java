@@ -6,6 +6,7 @@ public class JavaBasics {
 
 
 
+
                 // 1. first print  print  println  and \n 
 
                 // public static void main(String arg[]) {
