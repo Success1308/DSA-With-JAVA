@@ -6,6 +6,7 @@ public class JavaBasics {
         // 1. arithmetic operators (binary/unary/ternary)
 
 
+
         // binary
 
         int A = 10;
