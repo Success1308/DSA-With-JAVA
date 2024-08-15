@@ -5,6 +5,7 @@ public class JavaBasics {
     public static void main(String arg[]){
 
 
+
         // Scanner sc = new Scanner(System.in);
         // int number = sc.nextInt();
 
