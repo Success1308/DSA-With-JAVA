@@ -8,6 +8,7 @@ import java.util.*;
 // *         *
 // * * * * * *
 
+
 // public class JavaBasics {
 
 //     public static void hollowRec(int row, int col){
