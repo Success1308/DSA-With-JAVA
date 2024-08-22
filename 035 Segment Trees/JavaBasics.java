@@ -2,6 +2,7 @@ import java.util.*;
 
 // // segment tree construction
 
+
 // public class JavaBasics{
 // 	static int tree[];
 
