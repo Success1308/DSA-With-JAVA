@@ -2,8 +2,6 @@ import java.util.*;
 
 
 
-
-
 // 1. Activity selection
 // start = [10,12,20]
 // end = [20,25,30]
