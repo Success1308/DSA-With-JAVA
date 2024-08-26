@@ -1,5 +1,6 @@
 import java.util.*;
 
+
 //Self Practice
 // Question 3
 // public class JavaBasics{
