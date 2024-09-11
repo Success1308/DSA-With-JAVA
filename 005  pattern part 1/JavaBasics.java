@@ -12,8 +12,6 @@ public class JavaBasics{
 // ***
 // **** 
 
-
-
         // Scanner sc = new Scanner(System.in);
         // System.out.print("please eneter how many line you wanna star : ");
         // int range = sc.nextInt();
